@@ -1,7 +1,7 @@
 # creacion_img
 Para crear bkups de instalaciones base en memorias flash un problema recurrente es evitar que el bkup incluya los espacios vacios. Tres pasos entonces: primero poner en zero esos espacios vacios (pueden tener residuos de material borrado), crear la imagen y luego eliminar los zeros.
 
-1. Poner en zeros sectores que no tienen registros legales de contenido. Comparado con otros procedimientos fstrim es rapido e impone menos desgaste a la tarjeta. Coore en tarjetas modernas y se necesita un kernel superior a 4.19.
+1. Poner en zeros sectores que no tienen registros legales de contenido. Comparado con otros procedimientos fstrim es rapido e impone menos desgaste a la tarjeta. Corre en tarjetas modernas y se necesita un kernel superior a 4.19.
 
 ```
 sudo fstrim -v /media/ruta-de-la-tarjeta/
