@@ -10,7 +10,7 @@ sudo fstrim -v /media/ruta-de-la-tarjeta
 Opcion alternativa. Crear una imagen de todos esos zeros (paso que terminara en error) y luego, inmediatamente, borrarla:
 
 ```
-cd /media/ruta-de-la-tarjeta/
+cd /media/ruta-de-la-tarjeta
 sudo dd if=/dev/zero of=borrame bs=1M
 sudo rm borrame
 ```
