@@ -28,5 +28,5 @@ Y esperar.
 Para restaurar la imagen:
 
 ```
-cat backup.img.gz | gunzip | dd of=/dev/ruta-de-la-tarjeta/
+cat backup.img.gz | gunzip | dd of=/dev/ruta-de-la-tarjeta
 ```
