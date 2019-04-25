@@ -20,7 +20,7 @@ sudo rm borrame
 cd
 sudo dd if=/dev/ruta-de-la-tarjeta | gzip > backup.img.gz
 ```
-
+Y esperar.
 --------------
 
 Para restaurar la imagen:
